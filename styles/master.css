@@ -1,0 +1,65 @@
+.page-header {
+  font-size: 4rem;
+  font-family: 'Black Ops One', cursive;
+}
+
+
+body {
+  font-family: 'Open Sans', Sans-serif;
+}
+
+h1 {
+  color: rgb(149,	203,69);	/* green */
+}
+
+h2 {
+  color: rgb(145, 136, 126); /* gray */
+}
+
+h3 {
+  color: rgb(145, 136, 126); /* gray */
+}
+
+p {
+  padding: .5rem;
+  color: rgb(145, 136, 126); /* gray */
+}
+
+.archery-btn {
+  color: rgb(149,	203,69);	/* green */
+  background-color: rgb(79,	63,	52);	/* brown */
+  /* rgb(213,	234,	185);	 /* light green */
+  /* color: rgb(145, 136, 126);*/ /* gray */
+}
+
+.square {
+  height: 5rem;
+  width: 5rem;
+}
+
+.archery-lt-green {
+  background-color: rgb(213,	234,	185);
+}
+
+.archery-dk-green {
+  background-color: rgb(149,	203,69);
+}
+
+.archery-grey {
+  background-color: rgb(145, 136, 126);
+}
+
+.archery-brown {
+
+  background-color: rgb(79,	63,	52);
+}
+
+a {
+  color: rgb(79,	63,	52);
+
+}
+
+a:hover {
+  color: rgb(145, 136, 126);;
+  background-color: rgb(79,	63,	52);
+}
