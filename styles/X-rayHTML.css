@@ -1,0 +1,134 @@
+body {background:#333}
+
+.xrayhtml {
+	position: relative !important;
+	margin: 10px 0;
+}
+.source {
+	position: relative;
+}
+.source-panel {
+	tab-size: 3;
+}
+.source-panel pre {
+	margin: 0;
+	background: #fefefe;
+}
+.source-panel code {
+	white-space: pre-wrap;
+}
+
+/* Flip Animation */
+
+.method-flip {
+	-webkit-perspective: 2500px;
+	-moz-perspective: 2500px;
+	perspective: 2500px;
+}
+.method-flip .snippet {
+	padding: 0;
+	margin: 0;
+	position: relative;
+	top: 0;
+	left: 0;
+	z-index: 2;
+}
+.method-flip .source-panel {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 200px;
+	overflow: auto;
+}
+.method-flip .snippet {
+	-webkit-transform: rotateY(0deg);
+	-webkit-transform-style: preserve-3d;
+	-webkit-backface-visibility: hidden;
+	-moz-transform: rotateY(0deg);
+	-moz-transform-style: preserve-3d;
+	-moz-backface-visibility: hidden;
+	-webkit-transition: -webkit-transform .4s ease-in-out;
+	-moz-transition: -moz-transform .4s ease-in-out;
+}
+.method-flip.view-source .snippet {
+	z-index: 1;
+	-webkit-transform: rotateY(180deg);
+	-moz-transform: rotateY(180deg);
+}
+.method-flip .source-panel {
+	-webkit-transform: rotateY(-180deg);
+	-webkit-backface-visibility: hidden;
+	-moz-transform: rotateY(-180deg);
+	-moz-backface-visibility: hidden;
+	-moz-transition: all .4s ease-in-out;
+	-webkit-transition: all .4s ease-in-out;
+}
+.method-flip.view-source .source-panel {
+	z-index: 2;
+	-webkit-transform: rotateY(0deg);
+	-moz-transform: rotateY(0deg);
+}
+
+/* Button */
+
+.btn {
+	background-color: #fefefe;
+	background-image: -webkit-linear-gradient( top, rgba( 255,255,255,.1 ) 0%, rgba( 255,255,255,.1 ) 50%, rgba( 170,170,170,.1 ) 55%, rgba( 120,120,120,.15 ) 100% );
+	background-image: -moz-linear-gradient( top, rgba( 255,255,255,.1 ) 0%, rgba( 255,255,255,.1 ) 50%, rgba( 170,170,170,.1 ) 55%, rgba( 120,120,120,.15 ) 100% );
+	background-image: linear-gradient( top, rgba( 255,255,255,.1 ) 0%, rgba( 255,255,255,.1 ) 50%, rgba( 170,170,170,.1 ) 55%, rgba( 120,120,120,.15 ) 100% );
+	border: 1px solid #ccc;
+	border-radius: .4em;
+	color: #308bd3;
+	cursor: pointer;
+	display: block;
+	font: bold 14px/1 sans-serif;
+	padding: .6em 0 .5em 0;
+	position: relative;
+	text-align: center;
+	text-transform: capitalize;
+	width: 100%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.btn-small {
+	display: block;
+	font-size: .8em;
+	padding: 9px 0;
+	margin: .6em 0;
+	width: 125px;
+  text-decoration: none;
+}
+
+aside {
+	background: #f5f2f0;
+	padding: .5em;
+}
+blockquote {
+	font-size: 1.6em;
+	margin: 0;
+	position: relative;
+}
+blockquote:before {
+	color: #ccc;
+	content: "“";
+	font-size: 4em;
+	left: 0;
+	line-height: .25;
+	position: absolute;
+	top: 0;
+	z-index: 1;
+}
+blockquote p {
+	position: relative;
+	margin: 1em;
+	z-index: 2;
+}
+address {
+	font-size: 1.2em;
+}
+cite {
+	font-size: 1.1em;
+}

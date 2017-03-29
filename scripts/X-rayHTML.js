@@ -1,0 +1,8 @@
+/*
+* View Source
+* Generates copy/pastable markup from actual rendered markup.
+*
+* Copyright (c) 2012 Filament Group, Inc.
+* Licensed under the MIT, GPL licenses.
+*/
+!function(e){var t="xrayhtml",n={text:{open:"View Source",close:"View Demo"},classes:{button:"btn btn-small",open:"view-source",sourcepanel:"source-panel"},initSelector:"[data-"+t+"]",defaultReveal:"inline"},a={_create:function(){return e(this).each(function(){var n=e(this).data("init."+t);return n?!1:void e(this).data("init."+t,!0)[t]("_init").trigger("create."+t)})},_init:function(){var a=e(this).data(t)||n.defaultReveal;"flip"===a&&e(this)[t]("_createButton"),e(this).addClass(t+" method-"+a)[t]("_createSource")},_createButton:function(){var t=document.createElement("a"),a=document.createTextNode(n.text.open),i=e(this);t.setAttribute("class",n.classes.button),t.href="#",t.appendChild(a),e(t).bind("click",function(e){var a=i.attr("class").indexOf(n.classes.open)>-1;i[a?"removeClass":"addClass"](n.classes.open),t.innerHTML=a?n.text.open:n.text.close,e.preventDefault()}).insertBefore(i)},_createSource:function(){var t=this,a=document.createElement("pre"),i=document.createElement("code"),c=document.createElement("div"),r=document.createElement("div"),s=t.innerHTML,o=document.createTextNode(s);c.setAttribute("class","snippet"),e(t).wrapInner(c),i.appendChild(o),a.appendChild(i),r.setAttribute("class",n.classes.sourcepanel),r.appendChild(a),this.appendChild(r)}};e.fn[t]=function(n,a,i,c){return this.each(function(){return n&&"string"==typeof n?e.fn[t].prototype[n].call(this,a,i,c):e(this).data(t+"data")?e(this):(e(this).data(t+"active",!0),void e.fn[t].prototype._create.call(this))})},e.extend(e.fn[t].prototype,a),e(function(){e(n.initSelector)[t]()})}(jQuery);
