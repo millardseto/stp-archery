@@ -28,44 +28,23 @@ p {
   color: rgb(145, 136, 126); /* gray */
 }
 
-.btn-sm-archery {
-  width: 4rem;
+/* BUTTONS */
+.btn-archery {
   color: rgb(213,	234,	185);
   background-color: rgb(79,	63,	52);
 }
-.btn-sm-archery:hover {
+.btn-archery:hover {
   color: rgb(79,	63,	52);
   background-color: rgb(213,	234,	185);
 }
 
-.btn-md-archery {
-  width: 6rem;
-  color: rgb(213,	234,	185);
-  background-color: rgb(79,	63,	52);
-}
-.btn-md-archery:hover {
-    color: rgb(79,	63,	52);
-    background-color: rgb(213,	234,	185);
-}
-
-
-.btn-lg-archery {
-  width: 8rem;
-  color: rgb(213,	234,	185);
-  background-color: rgb(79,	63,	52);	/* brown */
-}
-.btn-lg-archery:hover {
-  color: rgb(79,	63,	52);
-  background-color: rgb(213,	234,	185);
-}
-
-.btn-small {
+.btn-small-archery {
   width: 4rem;
 }
-.btn-medium {
+.btn-medium-archery{
   width: 6rem;
 }
-.btn-large {
+.btn-large-archery {
   width: 8rem;
 }
 /*
