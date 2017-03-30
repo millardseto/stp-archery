@@ -1,23 +1,25 @@
 .page-header {
+  color: rgb(149,	203,69);
   font-size: 4rem;
   font-family: 'Faster One', cursive;
-  text-shadow: 2px 4px black;
+  text-shadow: 2px 2px black;
 }
 
 
 body {
   font-family: 'Open Sans', Sans-serif;
+  background-color: white;
 }
 
-h1 {
+.h1-archery {
   color: rgb(149,	203,69);	/* green */
 }
 
-h2 {
+.h2-archery {
   color: rgb(145, 136, 126); /* gray */
 }
 
-h3 {
+.h3-archery {
   color: rgb(145, 136, 126); /* gray */
 }
 
@@ -26,13 +28,52 @@ p {
   color: rgb(145, 136, 126); /* gray */
 }
 
-.archery-btn {
-  color: rgb(149,	203,69);	/* green */
-  background-color: rgb(79,	63,	52);	/* brown */
-  /* rgb(213,	234,	185);	 /* light green */
-  /* color: rgb(145, 136, 126);*/ /* gray */
+.btn-sm-archery {
+  width: 4rem;
+  color: rgb(213,	234,	185);
+  background-color: rgb(79,	63,	52);
+}
+.btn-sm-archery:hover {
+  color: rgb(79,	63,	52);
+  background-color: rgb(213,	234,	185);
 }
 
+.btn-md-archery {
+  width: 6rem;
+  color: rgb(213,	234,	185);
+  background-color: rgb(79,	63,	52);
+}
+.btn-md-archery:hover {
+    color: rgb(79,	63,	52);
+    background-color: rgb(213,	234,	185);
+}
+
+
+.btn-lg-archery {
+  width: 8rem;
+  color: rgb(213,	234,	185);
+  background-color: rgb(79,	63,	52);	/* brown */
+}
+.btn-lg-archery:hover {
+  color: rgb(79,	63,	52);
+  background-color: rgb(213,	234,	185);
+}
+
+.btn-small {
+  width: 4rem;
+}
+.btn-medium {
+  width: 6rem;
+}
+.btn-large {
+  width: 8rem;
+}
+/*
+rgb(149,	203,69);	    green
+rgb(79,	63,	52);	      brown
+rgb(213,	234,	185);	  light green
+rgb(145, 136, 126);     gray
+*/
 .square {
   height: 5rem;
   width: 5rem;
@@ -51,16 +92,15 @@ p {
 }
 
 .archery-brown {
-
   background-color: rgb(79,	63,	52);
 }
 
-a {
+.a-archery {
   color: rgb(79,	63,	52);
 
 }
 
-a:hover {
+.a-archery:hover {
   color: rgb(145, 136, 126);
   background-color: rgb(79,	63,	52);
 }
