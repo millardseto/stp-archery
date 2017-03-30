@@ -23,7 +23,7 @@ body {
   color: rgb(145, 136, 126); /* gray */
 }
 
-p {
+.p-archery {
   padding: .5rem;
   color: rgb(145, 136, 126); /* gray */
 }
@@ -58,19 +58,19 @@ rgb(145, 136, 126);     gray
   width: 5rem;
 }
 
-.archery-lt-green {
+.lt-primary-archery{
   background-color: rgb(213,	234,	185);
 }
 
-.archery-dk-green {
+.dk-primary-archery {
   background-color: rgb(149,	203,69);
 }
 
-.archery-grey {
+.lt-secondary-archery {
   background-color: rgb(145, 136, 126);
 }
 
-.archery-brown {
+.dk-secondary-archery {
   background-color: rgb(79,	63,	52);
 }
 
