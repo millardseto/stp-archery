@@ -5,6 +5,18 @@
   text-shadow: 2px 2px black;
 }
 
+/* NAVIGATION */
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+
+nav a {
+  padding: .3rem;
+}
 
 body {
   font-family: 'Open Sans', Sans-serif;
@@ -89,11 +101,6 @@ rgb(145, 136, 126);     gray
   padding-left: 4rem;
   padding-right: 4rem;
 
-}
-
-.archery-slide {
-  width: 200px;
-  height: 200px;
 }
 
 /* LAYOUT */
