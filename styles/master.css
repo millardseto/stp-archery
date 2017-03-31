@@ -129,6 +129,12 @@ article {
 
 /* Instructor Profiles */
 .profile-archery {
-  display: inline;
   width: 200px;
+  box-shadow: 6px 6px 6px grey;
+  transition-duration: 1s;
+}
+
+.profile-archery:hover {
+  transform: rotate(10deg) scale(1.5, 1.5);
+  transition-duration: 1s;
 }
