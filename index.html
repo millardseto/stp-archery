@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <title>STP Archery</title>
     <link rel="stylesheet" href="./styles/master.css">
+    <link rel="stylesheet" href="./lib/flexslider.css" type="text/css">
   </head>
   <body>
     <header>
@@ -17,6 +18,19 @@
       <a href="#">About Us</a>
       <a href="#">Policy</a>
     </nav>
+
+    <section>
+      <div class="flexslider">
+        <ul class="slides">
+          <li>
+            <img class="archery-slide" src="./images/class1.jpg" alt="Picture of class 1"/>
+          </li>
+          <li>
+            <img class="archery-slide" src="./images/class2.jpg" alt="Picture of class 2"/>
+          </li>
+        </ul>
+      </div>
+    </section>
 
     <div class="flex-container">
       <section class="flex-item">
@@ -37,5 +51,9 @@
         (253) 555-1010
       </address>
     </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+    <script src="./lib/jquery.flexslider-min.js"></script>
+    <script src="./scripts/archery.js"></script>
   </body>
 </html>

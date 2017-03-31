@@ -84,6 +84,11 @@ rgb(145, 136, 126);     gray
   background-color: rgb(79,	63,	52);
 }
 
+.archery-slide {
+  width: 200px;
+  height: 200px;
+}
+
 /* LAYOUT */
 .flex-container {
   display: flex;
