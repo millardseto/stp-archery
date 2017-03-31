@@ -21,6 +21,7 @@ nav a {
 body {
   font-family: 'Open Sans', Sans-serif;
   background-color: white;
+  margin: 2rem;
 }
 
 .h1-archery {
@@ -124,4 +125,10 @@ article {
   flex:1;
   padding: 1rem;
   margin-bottom: .5rem;
+}
+
+/* Instructor Profiles */
+.profile-archery {
+  display: inline;
+  width: 200px;
 }
