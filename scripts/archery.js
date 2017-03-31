@@ -17,6 +17,8 @@ $(function() {
   function loadPage(){
     event.preventDefault(); // for anchor tag, don't navigate
 
+    window.google = {} // reset map
+
     /* get the filename from the anchor tag */
     var file = this.href;
 
