@@ -10,8 +10,8 @@ nav {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  padding-left: 4rem;
-  padding-right: 4rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
 nav a {
@@ -98,8 +98,13 @@ rgb(145, 136, 126);     gray
 
 /* SLIDES */
 .slideshow {
-  padding-left: 4rem;
-  padding-right: 4rem;
+  min-width: 200px;
+  max-width: 600px;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  margin-top: 2rem;
+  margin-left: auto;
+  margin-right: auto;
 
 }
 
