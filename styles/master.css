@@ -84,6 +84,13 @@ rgb(145, 136, 126);     gray
   background-color: rgb(79,	63,	52);
 }
 
+/* SLIDES */
+.slideshow {
+  padding-left: 4rem;
+  padding-right: 4rem;
+
+}
+
 .archery-slide {
   width: 200px;
   height: 200px;
