@@ -1,5 +1,5 @@
 $(function() {
-  $('.flexslider').flexslider();
+
 
 
   /* load home page - since user hasnt clicked anything yet */
@@ -7,6 +7,8 @@ $(function() {
     if (status != "success") {
       $("#main").text("Failed to load page.");
     }
+
+    $('.flexslider').flexslider();
 
     /* now that the partial page has loaded, wireup links on the partial page */
     $('nav a').on('click', loadPage);
@@ -24,6 +26,7 @@ $(function() {
     $("#main").load(file, function(response, status){
       // status='fail'; for verifying failure message
       if (status == "success"){
+        $('.flexslider').flexslider();
       } else {
         $("#main").text("Failed to load page.");
       }
