@@ -1,18 +1,21 @@
-.page-header {
+.page-header-text {
   color: black;
-  font-size: 4rem;
+  font-size: 2rem;
   font-family: 'Rock Salt', cursive;
   display: inline;
+
 }
 
 header {
-    background-image: url('../images/flying-arrow.jpg');
+    /* background-image: url('../images/flying-arrow.jpg');
     background-repeat: no-repeat;
-    height: 120px;
+    */
+    margin-bottom: 1.5rem;
 }
 
 .logo-archery {
   width: 6rem;
+  vertical-align: middle;
   margin-left: 2rem;
   margin-right: 2rem;
 }
