@@ -17,6 +17,10 @@ $(function() {
   function loadPage(){
     event.preventDefault(); // for anchor tag, don't navigate
 
+    /* set menu - remove all active status, then add one back */
+    $('.navbar li.active').removeClass('active');
+    $(this).parent().toggleClass("active");
+
     window.google = {} // reset map
 
     /* get the filename from the anchor tag */
