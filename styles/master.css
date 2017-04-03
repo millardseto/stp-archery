@@ -178,10 +178,12 @@ article {
   width: 200px;
   box-shadow: 6px 6px 6px grey;
   transition-duration: 1s;
+  border-radius: 50%;
+  border: 4px double rgb(79,	63,	52);
 }
 
 .profile-archery:hover {
-  transform: rotate(7deg) scale(1.1, 1.1);
+  transform: rotate(-7deg) scale(1.1, 1.1);
   transition-duration: 1s;
 }
 
