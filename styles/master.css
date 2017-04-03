@@ -73,7 +73,14 @@ body {
 
 .p-archery {
   padding: .5rem;
-  color: rgb(145, 136, 126); /* gray */
+  color: rgb(145, 136, 126);
+}
+
+/* page size paragraph */
+.p-page-archery {
+  padding-left: 3rem;
+  max-width: 40rem;
+  color: rgb(145, 136, 126);
 }
 
 /* BUTTONS */
