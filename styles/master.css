@@ -58,7 +58,7 @@ body {
   margin: 2rem;
 }
 
-/* COLORS */
+/* TEXT */
 .h1-archery {
   color: rgb(149,	203,69);	/* green */
 }
@@ -95,7 +95,7 @@ body {
 .btn-large-archery {
   width: 8rem;
 }
-/*
+/* COLORS
 rgb(149,	203,69);	    green
 rgb(79,	63,	52);	      brown
 rgb(213,	234,	185);	  light green
@@ -124,7 +124,9 @@ rgb(145, 136, 126);     gray
 
 .a-archery {
   color: rgb(79,	63,	52);
-
+}
+.a-light-archery {
+  color: rgb(145, 136, 126);
 }
 
 article {
@@ -172,4 +174,12 @@ article {
 .profile-archery:hover {
   transform: rotate(7deg) scale(1.1, 1.1);
   transition-duration: 1s;
+}
+
+footer {
+  font-size: .7rem;
+  font-weight:lighter;
+  color: white;
+  background-color: rgb(79,	63,	52);
+  padding: 1rem;
 }
