@@ -29,21 +29,36 @@ header {
 nav {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content:flex-start;
   padding-left: 2rem;
   padding-right: 2rem;
 }
 
 nav a {
   padding: .3rem;
+  text-decoration: none;
 }
 
+/* use undecoratorated list for menu items so we can easily add verticle separators */
+nav ul li
+{
+  list-style-type: none;
+  display: inline;
+}
+
+nav li:not(:first-child):before {
+    content: " | ";
+}
+
+
+/* BODY AND GENERAL RULES */
 body {
   font-family: 'Open Sans', Sans-serif;
   background-color: white;
   margin: 2rem;
 }
 
+/* COLORS */
 .h1-archery {
   color: rgb(149,	203,69);	/* green */
 }
