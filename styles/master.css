@@ -20,6 +20,11 @@ header {
   margin-right: 2rem;
 }
 
+.search-archery {
+  width: 300px;
+  float: right;
+}
+
 /* NAVIGATION */
 nav {
   display: flex;
