@@ -200,6 +200,9 @@ article {
 }
 
 footer {
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: .5rem;
   font-size: 1.2rem;
   font-weight:lighter;
   color: white;
