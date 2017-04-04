@@ -3,7 +3,6 @@
   font-size: 3rem;
   font-family: 'Rock Salt', cursive;
   display: inline;
-
 }
 
 header {
@@ -18,6 +17,14 @@ header {
   vertical-align: middle;
   margin-left: 2rem;
   margin-right: 2rem;
+}
+
+/* social media */
+.social-archery {
+  color: gray;
+}
+.social-archery:hover {
+  color: dimgray;
 }
 
 .search-archery {
