@@ -30,6 +30,19 @@ header {
   width: 200px;
 }
 
+/* In wide screen, fix the height so panels align.  In narrow screen remove fixed height.  */
+@media screen and (min-width: 992px) {
+  .panel-classes-archery {
+    min-height: 600px;
+  }
+
+  .panel-lessons-archery {
+    min-height: 500px;
+  }
+}
+
+
+
 /* NAVIGATION */
 nav {
   /*
