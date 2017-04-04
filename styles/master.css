@@ -25,6 +25,11 @@ header {
   float: right;
 }
 
+/* CLASS IMAGES */
+.img-class-archery {
+  width: 200px;
+}
+
 /* NAVIGATION */
 nav {
   /*
