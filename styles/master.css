@@ -28,6 +28,9 @@ header {
 /* CLASS IMAGES */
 .img-class-archery {
   width: 200px;
+  box-shadow: 3px 3px 3px;
+  margin-bottom: 1rem;
+  border-radius: 3%;
 }
 
 /* In wide screen, fix the height so panels align.  In narrow screen remove fixed height.  */
@@ -37,7 +40,7 @@ header {
   }
 
   .panel-lessons-archery {
-    min-height: 500px;
+    min-height: 300px;
   }
 }
 
