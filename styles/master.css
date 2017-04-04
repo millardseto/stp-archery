@@ -72,14 +72,17 @@ body {
 
 /* TEXT */
 .h1-archery {
+  font-size: 2rem;
   color: rgb(149,	203,69);	/* green */
 }
 
 .h2-archery {
+  font-size: 1.5rem;
   color: rgb(145, 136, 126); /* gray */
 }
 
 .h3-archery {
+  font-size: 1.2rem;
   color: rgb(145, 136, 126); /* gray */
 }
 
@@ -180,11 +183,12 @@ article {
 
 /* Instructor Profiles */
 .profile-archery {
-  width: 200px;
+  width: 150px;
   box-shadow: 6px 6px 6px grey;
   transition-duration: 1s;
   border-radius: 50%;
   border: 4px double rgb(79,	63,	52);
+  margin-bottom: 2rem;
 }
 
 .profile-archery:hover {
