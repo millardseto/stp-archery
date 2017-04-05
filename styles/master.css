@@ -258,6 +258,14 @@ img.center {
   margin: 2rem;
 }
 
+.img-sm-inline {
+  width: 75px;
+  margin-left: 1rem;
+  margin-right: 1em;
+  margin-bottom: 1rem;
+  float: left;
+}
+
 
 footer {
   text-align: center;
