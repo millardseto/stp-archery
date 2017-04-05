@@ -244,6 +244,21 @@ article {
   margin-right: 2rem;
 }
 
+
+/* IMAGES general */
+img.center {
+    display: block;
+    margin: 0 auto;
+}
+.shadow {
+  box-shadow: 3px 3px 3px;
+}
+.logo-sm {
+  width: 75px;
+  margin: 2rem;
+}
+
+
 footer {
   text-align: center;
   text-transform: uppercase;
