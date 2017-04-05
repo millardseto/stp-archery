@@ -231,6 +231,19 @@ article {
   height:400px;
 }
 
+/* STORE */
+.table-store-archery {
+  padding: 1rem;
+  max-width: 600px;
+}
+
+.img-pro-shop {
+  width: 70px;
+  height: auto;
+  float: left;
+  margin-right: 2rem;
+}
+
 footer {
   text-align: center;
   text-transform: uppercase;
