@@ -266,6 +266,12 @@ img.center {
   float: left;
 }
 
+.img-wide {
+  width: auto;
+  height: auto;
+  margin: 1rem;
+}
+
 
 footer {
   text-align: center;
